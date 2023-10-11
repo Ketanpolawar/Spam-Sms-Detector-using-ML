@@ -11,7 +11,7 @@ def home():
 def perdict():
     cno=int(request.form.get('ccnum'))
     at=int(request.form.get('amt'))
-    un=int(request.form.get('unix'))
+    un=int(request.form.get('zip'))
     result=c.predict([[cno,at,un]])
     final=str(result)
     t=final[1]
