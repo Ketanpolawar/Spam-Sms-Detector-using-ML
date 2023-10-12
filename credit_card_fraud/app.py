@@ -21,7 +21,7 @@ def perdict():
 
     result=c.predict([[cno,at,zp,lat,long,cp,un,mla,mlo]])
     final=str(result)
-    t=final[1]
+    t=int(final[1])
 
     if t==1:
         return "**Transaction is fraud**"
