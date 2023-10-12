@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Credit Card Fraud Detectation</title>        
+    </head>
+        
+
+    <body style="background-color: rgb(230, 227, 241);">
+     
+        <h2 style = "text-align:center;color:rgb(236, 236, 236); background-color: rgb(56, 18, 41); "><b>CREDIT CARD FRAUD DETECTATION</b></h2><br>  
+    
+    
+        
+        <form style="border: 4px solid black;margin-left: 200px; margin-right: 200px;"  action="/predict" method="post">
+            <h2 style = "text-align:center;color:rgb(235, 235, 235); background-color: rgb(56, 18, 41); "><b>CREDIT CARD INFORMATION</b></h2>
+            <table align = "center" style = "font-size:20px">
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the Credit card number</b></td>
+            <td><input type = "number"   name = "ccnum" ><p id="nval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the Amount</b></td>
+            <td><input type = "number" step="0.01" name = "amt" maxlength = 30/><p id="eval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the ZIP</b></td>
+            <td><input type = "number" step="0.01" name = "zip" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the lat</b></td>
+            <td><input type = "number" step="0.01" name = "lat" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the long</b></td>
+            <td><input type = "number" step="0.01" name = "lon" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the city_pop</b></td>
+            <td><input type = "number" step="0.01" name = "cp" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the unix</b></td>
+            <td><input type = "number" step="0.01" name = "unix" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the merch_lat</b></td>
+            <td><input type = "number" step="0.01" name = "mla" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+            <tr>
+            <td style="font-size: 25px;"><b>Enter the merch_long</b></td>
+            <td><input type = "number" step="0.01" name = "mlo" maxlength = 10/><p id="cval" style="display:inline;"></p></td>
+            </tr>
+
+            </table>        
+            <h1 style="margin-left:400px;"><button><input style="color: black;" type = "submit" name = "submit" id="btn" value = "Predict" /></button><br></h1>
+         </form>
+        
+        
+    </body>
+</html>
