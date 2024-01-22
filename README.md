@@ -2,8 +2,10 @@
 
 The following project successfully implements the Machine Learning & data Science Concepts such as EDA (Exploratory Data Analysis) ,Data Pre processing ,and classification algorithms like linear Regression,decision trees etc,Finally testing the accurracy of the model using various measures.
 
-Domain : Machine Learning 
-Langauge : Python 
+Domain : Machine Learning    
+
+Langauge : Python    
+
 DataSet : Kaggle 
 
 
